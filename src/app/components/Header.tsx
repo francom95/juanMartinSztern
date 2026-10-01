@@ -41,6 +41,7 @@ function Header() {
                 <nav className="hidden md:flex gap-6">
                     <Link href="/#inicio" className="text-white hover:text-[#8e44ad] transition font-medium">Inicio</Link>
                     <Link href="/#sobre-mi" className="text-white hover:text-[#8e44ad] transition font-medium">Sobre Mí</Link>
+                    <Link href="/#equipo" className="text-white hover:text-[#8e44ad] transition font-medium">Equipo</Link>
                     <Link href="/#servicios" className="text-white hover:text-[#8e44ad] transition font-medium">Servicios</Link>
                     <Link href="/#testimonios" className="text-white hover:text-[#8e44ad] transition font-medium">Testimonios</Link>
                     <Link href="/contacto" className="text-white hover:text-[#8e44ad] transition font-medium">Contacto</Link>
@@ -81,6 +82,13 @@ function Header() {
                                 onClick={closeMobileMenu}
                             >
                                 Sobre Mí
+                            </Link>
+                            <Link
+                                href="/#equipo"
+                                className="text-white hover:text-[#8e44ad] transition font-medium py-2 px-4 rounded-md hover:bg-[#1a1a1a]"
+                                onClick={closeMobileMenu}
+                            >
+                                Equipo
                             </Link>
                             <Link
                                 href="/#servicios"
