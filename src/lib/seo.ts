@@ -69,6 +69,14 @@ export function getOrganizationJsonLd() {
       name: doctorName,
       jobTitle: "Odontólogo - Especialista en ATM y Ortodoncia",
     },
+    employee: [
+      {
+        "@type": "Person",
+        name: "Alfonso Altieri",
+        jobTitle: "Implantólogo",
+        image: `${SITE_URL}/resources/alfonso-altieri.jpg`,
+      },
+    ],
     knowsAbout,
     medicalSpecialty: "Dentistry",
     sameAs: socialLinks,
